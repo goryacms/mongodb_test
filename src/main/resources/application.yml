@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active:
+    - redis
+  redis:
+    host: 127.0.0.1
+    port: 6379
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: goryacms
+
+server:
+  port: 8081
